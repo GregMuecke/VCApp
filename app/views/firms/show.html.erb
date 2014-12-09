@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firm:</strong>
+  <%= @firm.firm %>
+</p>
+
+<p>
+  <strong>Firm type:</strong>
+  <%= @firm.firm_type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @firm.description %>
+</p>
+
+<p>
+  <strong>Firm url:</strong>
+  <%= @firm.firm_url %>
+</p>
+
+<%= link_to 'Edit', edit_firm_path(@firm) %> |
+<%= link_to 'Back', firms_path %>
